@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .success-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .success-message {
+            background-color: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .success-message h1 {
+            font-size: 36px;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+
+        .success-message p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .back-button {
+            padding: 12px 25px;
+            background-color: #007bff; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        
+        .back-button:hover {
+            background-color: #0056b3; 
+            transform: scale(1.05);
+        }
+
+        .back-button:focus {
+            outline: none; 
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-message">
+            <h1>Success!</h1>
+            <p>Your action was completed successfully.</p>
+            <a href="index.html">
+                <button class="back-button">Go Back to Home</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
